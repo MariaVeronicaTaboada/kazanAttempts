@@ -1,0 +1,146 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 200px;
+    height: 200px;
+    background: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+/* .circle1 {
+    width: 80px;
+    height: 80px;
+    background: #f63d3a;
+    border-radius: 50%;
+    position: relative;
+    grid-column: 1 / 2;
+    animation: redcirc 2s;
+} */
+@keyframes redcirc {
+    0% {
+        top: 0;
+        right: 0;
+      }
+      25% {
+        top: 0px;
+        left: 120px;
+      }
+      50% {
+        top: 120px;
+        left: 120px;
+      }
+      75% {
+        right: 0;
+        top: 120px;
+      }
+      100% {
+        top: 0;
+        right: 0;
+      }
+}
+
+/* .circle2 {
+    width: 80px;
+    height: 80px;
+    background: #fda543;
+    border-radius: 50%;
+    position: relative;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    animation: orangecirc 2s;
+} */
+@keyframes orangecirc {
+    0% {
+        bottom: 0;
+        right: 0;
+      }
+      25% {
+        right: 0px;
+        bottom: 120px;
+      }
+      50% {
+        right: 0;
+        bottom: 120px;
+      }
+      75% {
+        left: 120px;
+        bottom: 0px;
+      }
+      100% {
+        bottom: 0;
+        right: 0;
+      }
+}
+
+/* .circle3 {
+    width: 80px;
+    height: 80px;
+    background: #193b48;
+    border-radius: 50%;
+    position: relative;
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+    animation: bluecirc 2s;
+} */
+@keyframes bluecirc {
+    0% {
+        bottom: 0;
+        right: 0;
+      }
+      25% {
+        right: 120px;
+        top: 0;
+      }
+      50% {
+        top: 120px;
+        left: 0px;
+      }
+      75% {
+        right: 120px;
+        bottom: 0px;
+      }
+      100% {
+        bottom: 0;
+        right: 0;
+      }
+}
+
+.circle4 {
+    width: 80px;
+    height: 80px;
+    background: #19a68c;
+    border-radius: 50%;
+    position: relative;
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+    animation: bluecirc 2s;
+}
+@keyframes greencirc {
+    0% {
+        top: 0;
+        right: 0;
+      }
+      25% {
+        bottom: 120px;
+        right: 120px;
+      }
+      50% {
+        top: 120px;
+        left: 120px;
+      }
+      75% {
+        right: 0;
+        top: 120px;
+      }
+      100% {
+        top: 0;
+        right: 0;
+      }
+}
