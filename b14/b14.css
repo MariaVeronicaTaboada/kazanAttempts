@@ -1,0 +1,19 @@
+body {
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    background: #fce019;
+    justify-content: center;
+    display: flex;
+}
+
+.title {
+    width: 100px;
+    height: 50px;
+    background: white;
+    border-color: black;
+    position: relative;
+}
