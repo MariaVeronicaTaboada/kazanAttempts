@@ -1,0 +1,14 @@
+body {
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+
+.race {
+    width: 50px;
+    height: 25px;
+    background: cornflowerblue;
+    position: relative;
+    margin: auto;
+    animation: ;
+}
