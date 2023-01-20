@@ -7,10 +7,11 @@ body {
 .triangle {
     width: 0;
 	height: 0;
-	border-left: 200px solid transparent;
-	border-right: 200px solid transparent;
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
 	border-bottom: 300px solid blue;
-    animation: square 5s infinite;
+    animation: square 3s linear infinite;
+    margin: auto;
 }
 
 @keyframes square {
@@ -21,11 +22,25 @@ body {
 	    border-right: 150px solid transparent;
 	    border-bottom: 300px solid blue;
     }
+    25% {
+        width: 150px;
+	    height: 0;
+        border-left: 75px solid yellow;
+	    border-right: 75px solid yellow;
+	    border-bottom: 300px solid yellow;
+    }
     50% {
         width: 0;
 	    height: 0;
         border-left: 150px solid yellow;
 	    border-right: 150px solid yellow;
+	    border-bottom: 300px solid yellow;
+    }
+    70% {
+        width: 150px;
+	    height: 0;
+        border-left: 75px solid yellow;
+	    border-right: 75px solid yellow;
 	    border-bottom: 300px solid yellow;
     }
     100% {
