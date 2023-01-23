@@ -2,18 +2,48 @@ body {
     align-items: center;
     height: 100vh;
     overflow: hidden;
+    background: #fce019;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 70px;
 }
 
-.container {
-    background: #fce019;
+.cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
     justify-content: center;
-    display: flex;
+    align-items: center;
+    margin: auto;
 }
 
 .title {
-    width: 100px;
+    width: 150px;
     height: 50px;
-    background: white;
-    border-color: black;
     position: relative;
+    border: 1px solid black;
+    background: white;
+    grid-column: 2 / 3;
+    text-align: center;
+    margin: auto;
+    font-size: 10px;
+}
+
+h2 {
+    margin: auto;
+}
+
+.post1, .post2, .post3, .post4, .post5, .post6 {
+    width: 380px;
+    height: 150px;
+    position: relative;
+    border: 1px solid black;
+    background: white;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.post1 {
+    grid-column: 1 / 2;
 }

@@ -1,0 +1,28 @@
+body {
+    background: #4f4e4e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cube1 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+    background: white;
+    opacity: 80%;
+    animation: ;
+    
+}
+
+.box1 {
+    background: #fa5252;
+}
+
+@keyframes cube1 {
+    
+}

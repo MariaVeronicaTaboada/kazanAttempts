@@ -1,8 +1,10 @@
 body {
     display: grid;
-    grid-template-columns: 160px 240px 128px 96px 32px 128px;
-    grid-template-rows: 50px 50px 50px 50px 50px 100px 50px;
-    gap: 5px;
+    grid-template-columns: 10fr 15fr 8fr 6fr 2fr 8fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 2fr 1fr;
+    gap: 10px;
+    height: 100vh;
+    font-weight: bold;
 }
 
 .siteTitle {
@@ -55,7 +57,7 @@ body {
 
 .ads {
     grid-column: 5 / 7;
-    grid-row: 4 / 6;
+    grid-row: 4 / 5;
     background: #1c7e12;
 }
 
