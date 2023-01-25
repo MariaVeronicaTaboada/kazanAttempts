@@ -1,0 +1,19 @@
+.form__fieldset {
+    border: 2px dotted black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#field_firstname, #field_lastname, #field_telephone, #field_e_mail {
+    width: 90%;
+    height: 30px;
+}
+
+#field_support_request {
+    
+}
+
+#field_website {
+    width: 190%;
+    height: 30px;
+}
