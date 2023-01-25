@@ -1,0 +1,29 @@
+.back {
+    width: 400px;
+    height: 320px;
+    background: green;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    position: relative;
+    animation: circ 2s linear infinite;
+}
+
+@keyframes circ {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 350px;
+    }
+    100% {
+        left: 0;
+    }
+}
